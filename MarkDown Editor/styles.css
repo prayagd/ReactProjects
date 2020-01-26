@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to bottom, #ffcc66 0%, #ff99ff 100%);
+    margin: 30px 0px;
+  }
+  
+  #root{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #editor{
+    font-size: 10px;
+    width: 750px;
+   
+    border: 1px solid grey;
+  }
+  
+  #preview{
+    border: 1px solid grey;
+    width: 750px;
+    
+    background-color: white;
+  }
+  
+  #editortitle{
+    display: block;
+    width: 750px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(to right, #ffcc66 0%, #ff99ff 100%);
+  }
+  
+  #previewtitle{
+    display: block;
+    width: 750px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    background: linear-gradient(to left, #ffcc66 0%, #ff99ff 100%);
+  }
